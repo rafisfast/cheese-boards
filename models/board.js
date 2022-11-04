@@ -20,7 +20,7 @@ Board.init({
 }, {
   // Other model options go here
   sequelize: db, // We need to pass the connection instance
-  modelName: 'User' // We need to choose the model name
+  modelName: 'Board' // We need to choose the model name
 });
 
 (async () => {
